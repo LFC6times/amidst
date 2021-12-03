@@ -3,6 +3,16 @@ Amidst
 
 [![Build Status](https://travis-ci.org/toolbox4minecraft/amidst.svg?branch=master)](https://travis-ci.org/toolbox4minecraft/amidst)
 
+## Using to output all structures to a certain file:
+Put the build of Amidst in its own folder. Then, open a command prompt, and run
+
+"java -jar -Xmx[ram allocated] [insert file name] > output.txt" 
+(no quotes, and it is recommended to use -Xmx to increase memory, like -Xmx8g gives 8gb ram. The "> output.txt" puts the console output into a file output.txt)
+
+Then, when the "Profile Selector" window appears, choose a vanilla 1.16 installation (1.16 to 1.16.5). Once Amidst loads, go to File, choose "New From Seed", and enter a world seed.
+Go into Settings, ensure "Default World Type" is set to "Default", disable the following: Smooth Scrolling, Fragment Fading, and Restrict Maximum Zoom.
+Change the Number of Threads as you see fit. Under Layers, ensure that the corresponding boxes for your chosen structure are ticked. For Witch Huts, ensure Overworld and Temple/Witch Hut Icons are enabled. All other choices may be disabled.
+
 ## What is Amidst?
 
 Amidst is a tool to display an overview of a Minecraft world, without actually creating it.
