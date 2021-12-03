@@ -25,7 +25,15 @@ public class WorldIcon {
 		this.image = image;
 		this.dimension = dimension;
 		this.displayDimension = displayDimension;
+		if (name == "Ocean Monument") {
+			String x = Long.toString(coordinates.getX());
+			String y = Long.toString(coordinates.getY());
+			String mystr = x + " " + y;
+			System.out.println(mystr);
+		}
 	}
+			
+	
 
 	public CoordinatesInWorld getCoordinates() {
 		return coordinates;
