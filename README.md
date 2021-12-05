@@ -6,7 +6,7 @@ Amidst
 ## Using to output all structures to a certain file:
 Put the build of Amidst in its own folder. Then, open a command prompt, and run
 
-"java -jar -Xmx[ram allocated] [insert file name] > output.txt" 
+"java -Xmx[ram allocated] -jar [insert file name] > output.txt" 
 (no quotes, and it is recommended to use -Xmx to increase memory, like -Xmx8g gives 8gb ram. The "> output.txt" puts the console output into a file output.txt)
 
 Then, when the "Profile Selector" window appears, choose a vanilla 1.16 installation (1.16 to 1.16.5). Once Amidst loads, go to File, choose "New From Seed", and enter a world seed.
